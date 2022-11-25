@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    ul>li*3
+    <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+
+
+    table>(thead>tr>th*2)+(tbody>tr>td*10)
+    <table>
+        <thead>
+            <tr>
+                <th></th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </tbody>
+    </table>
+
+
+    h1.text.text-titulo{Ola mundo}
+    <h1 class="text text-titulo">Ola mundo</h1>
+
+
+
+    div>p{datos}*2
+    <div>
+        <p>datos</p>
+        <p>datos</p>
+    </div>
+
+
+    div+(p>span)*4
+    <div></div>
+    <p><span></span></p>
+    <p><span></span></p>
+    <p><span></span></p>
+    <p><span></span></p>
+
+
+    div#hola.principal>p>section#seccion.seccion>h1{Ola mundo!}
+    <div id="hola" class="principal">
+        <p>
+            <section id="seccion" class="seccion">
+                <h1>Ola mundo!</h1>
+            </section>
+        </p>
+    </div>
+
+
+    ol{fora}>li{dentro}*4
+    <ol>fora
+        <li>dentro</li>
+        <li>dentro</li>
+        <li>dentro</li>
+        <li>dentro</li>
+    </ol>
+
+    p+div+p>div>div
+    <p></p>
+    <div></div>
+    <p>
+        <div>
+            <div></div>
+        </div>
+    </p>
+
+
+
+
+    
+
+
+
+</body>
+
+</html>
